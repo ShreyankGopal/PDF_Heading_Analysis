@@ -2,4 +2,3 @@ pymupdf
 scikit-learn
 pandas
 joblib
-IPython

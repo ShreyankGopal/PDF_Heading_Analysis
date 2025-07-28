@@ -5,7 +5,6 @@ import joblib
 import json
 import re
 from sklearn.preprocessing import MinMaxScaler
-from IPython.display import display
 #final model used -> heading clasifer 5
 # def is_heading_heuristic(feat_row):
 #     text = feat_row['Section Text'].strip()
@@ -364,9 +363,7 @@ def process_pdfs():
             print(f"❌ Prediction failed for {pdf_path.name}: {e}")
             continue
         #display(df)
-        if("Test" in pdf_path.name):
-            
-            df.to_csv("test.csv", index=False)
+        
         structured_json = build_json_from_predictions(df)
 
         output_path = output_dir / f"{pdf_path.stem}.json"
