@@ -1,0 +1,100 @@
+{
+  "title": "arXiv:2301.13166v3  [cs.AI]  6 Jul 2023",
+  "outline": [
+    {
+      "level": "H1",
+      "text": "ESC: Exploration with Soft Commonsense Constraints for Zero-shot Object Navigation",
+      "page": 0
+    },
+    {
+      "level": "H2",
+      "text": "Abstract",
+      "page": 0
+    },
+    {
+      "level": "H1",
+      "text": "1. Introduction",
+      "page": 0
+    },
+    {
+      "level": "H1",
+      "text": "2. Problem Definition",
+      "page": 1
+    },
+    {
+      "level": "H2",
+      "text": "3. Our ESC Approach",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": "One-hot constraint PSL solver Normally, a PSL pro-",
+      "page": 4
+    },
+    {
+      "level": "H1",
+      "text": "4. Experimental Setup",
+      "page": 4
+    },
+    {
+      "level": "H3",
+      "text": "RoboTHOR ( Deitke et al. , 2020 ) is used in RoboTHOR",
+      "page": 4
+    },
+    {
+      "level": "H1",
+      "text": "5. Results and Analysis",
+      "page": 5
+    },
+    {
+      "level": "H3",
+      "text": "5.1. Result Comparison with SOTA Methods",
+      "page": 5
+    },
+    {
+      "level": "H2",
+      "text": "6. Related Work",
+      "page": 7
+    },
+    {
+      "level": "H3",
+      "text": "Commonsense Reasoning in Embodied Agents Com-",
+      "page": 7
+    },
+    {
+      "level": "H2",
+      "text": "7. Conclusion and Future Work",
+      "page": 8
+    },
+    {
+      "level": "H2",
+      "text": "Acknowledgements",
+      "page": 8
+    },
+    {
+      "level": "H2",
+      "text": "References",
+      "page": 8
+    },
+    {
+      "level": "H2",
+      "text": "A. Implementation Details",
+      "page": 11
+    },
+    {
+      "level": "H3",
+      "text": "ChatGPT ( Ouyang et al. , 2022 ) is a recently release pre-",
+      "page": 11
+    },
+    {
+      "level": "H2",
+      "text": "B. Dataset Details",
+      "page": 12
+    },
+    {
+      "level": "H2",
+      "text": "C. More Results",
+      "page": 12
+    }
+  ]
+}
