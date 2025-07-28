@@ -27,19 +27,27 @@ project/
 ## How to Run
 
 ### Docker (Recommended)
+Make sure Docker is running in your system
+Place your input pdfs in the /appinput folder
+Your output .json files will be present in /app/output directory
+1. Clone the repository
+```bash
+cd PDF_Heading_Analysis
+```
 
-1. Build the Docker image
-   ```bash
-   docker build --platform linux/amd64 -t pdf-heading-analyzer .
-   ```
-2. Run the container
-   ```bash
-   docker run --rm \
+
+2. Build the Docker image
+```bash
+docker build --platform linux/amd64 -t pdf-heading-analyzer .
+```
+3. Run the container
+```bash
+docker run --rm \
      -v $(pwd)/input:/app/input:ro \
      -v $(pwd)/output:/app/output \
      --network none \
      pdf-heading-analyzer
-   ```
+```
 
 Ensure that the model file `heading_classifier_with_font_count_norm_textNorm_5.pkl` is in the working directory before running.
 
@@ -68,7 +76,7 @@ Ensure that the model file `heading_classifier_with_font_count_norm_textNorm_5.p
 
 4. **Structured Output**
    First detected 'Title' is treated as the document's main title. Other headings (H1, H2, H3) are collected with associated page numbers. Output format:
-   ```json
+```json
    {
      "title": "Document Title",
      "outline": [
@@ -77,7 +85,7 @@ Ensure that the model file `heading_classifier_with_font_count_norm_textNorm_5.p
        ...
      ]
    }
-   ```
+```
 
 ## Notes
 
